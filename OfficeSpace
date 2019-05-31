@@ -20,3 +20,9 @@ public class OfficeSpace extends Room {
     public void setOfficeSpaceNumber(int officeSpaceNumber) {
         this.officeSpaceNumber = officeSpaceNumber;
     }
+    
+    @Override
+    public String toString() {
+        return "Office space " + getOfficeSpaceNumber() + ": " + getDesks() + " desks. \n";
+    }
+}
