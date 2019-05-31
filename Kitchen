@@ -1,0 +1,7 @@
+/**
+ * Created by Andrei on 05/31/2019.
+ */
+public class Kitchen extends Room{
+    public int coffeMachine = 1;
+    public int waterDispenser = 1;
+    public int fridge = 1;
