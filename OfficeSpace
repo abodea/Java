@@ -1,0 +1,22 @@
+/**
+ * Created by Andrei on 05/31/2019.
+ */
+public class OfficeSpace extends Room {
+    private int desks;
+    private int officeSpaceNumber;
+
+    public int getDesks() {
+        return desks;
+    }
+
+    public void setDesks(int desks) {
+        this.desks = desks;
+    }
+
+    public int getOfficeSpaceNumber() {
+        return officeSpaceNumber;
+    }
+
+    public void setOfficeSpaceNumber(int officeSpaceNumber) {
+        this.officeSpaceNumber = officeSpaceNumber;
+    }
