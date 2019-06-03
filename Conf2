@@ -20,9 +20,6 @@ public class ConferenceRoom extends Room{
     public void setConferenceRoomNumber(int conferenceRoomNumber) {
         this.conferenceRoomNumber = conferenceRoomNumber;
     }
-
-    @Override
-    public String toString() {
-        return "Conference room " + getConferenceRoomNumber() + ": " + getSeats() + " seats. \n";
+ 
     }
 }
