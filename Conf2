@@ -1,0 +1,28 @@
+/**
+ * Created by Andrei on 06/3/2019.
+ */
+public class ConferenceRoom extends Room{
+    private int seats;
+    private int conferenceRoomNumber;
+
+    public int getSeats() {
+        return seats;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    public int getConferenceRoomNumber() {
+        return conferenceRoomNumber;
+    }
+
+    public void setConferenceRoomNumber(int conferenceRoomNumber) {
+        this.conferenceRoomNumber = conferenceRoomNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Conference room " + getConferenceRoomNumber() + ": " + getSeats() + " seats. \n";
+    }
+}
