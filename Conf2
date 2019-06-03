@@ -22,6 +22,6 @@ public class ConferenceRoom extends Room{
     }
  @Override
     public String toString() {
-        
+        return "Conference room " + getConferenceRoomNumber() + ": " + getSeats() + " seats. \n";
     }
 }
