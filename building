@@ -10,10 +10,6 @@ public class Building {
         return floors;
     }
 
-    public void setFloors(List<Floor> floors) {
-        this.floors = floors;
-    }
-
     @Override
     public String toString() {
         return "Building has " + getFloors().size() + " floors.";
